@@ -1,0 +1,24 @@
+#1
+nums = list(range(65, 30, -5))
+print(nums)
+        
+#2
+list1 = []
+
+for x in range(21):
+    list1.append(x)
+
+del list1[0]
+print(list1)
+print(len(list1))
+print(max(list1))
+print(min(list1))
+
+Sum = sum(list1)
+print (Sum)
+
+#3
+weather = {"sunny":"play", "rainy":"watch", "cloudy": "walk", "snowy":"ski"}
+
+for w, x in weather.items():
+    print ('When ' + w + ' let us ' + x )
